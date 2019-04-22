@@ -20,7 +20,7 @@ class Cztery extends Component {
   };
   szukanieMiasta = e => {
     e.preventDefault();
-    console.log("ddfdf");
+    console.log("ddfgfddfgfdf");
 
     const API = `http://api.openweathermap.org/data/2.5/weather?q=${
       this.state.value
