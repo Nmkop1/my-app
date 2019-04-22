@@ -24,7 +24,7 @@ class Cztery extends Component {
 
     const API = `http://api.openweathermap.org/data/2.5/weather?q=${
       this.state.value
-    }&APPID=7bb3fa6eb271ecd95a92c35c830b4405&units=metric`;
+      }&APPID=7bb3fa6eb271ecd95a92c35c830b4405&units=metric`;
     fetch(API)
       .then(response => {
         if (response.ok) {
@@ -56,7 +56,7 @@ class Cztery extends Component {
   render() {
     return (
       <div>
-        <h1>Pogoda</h1>
+        <h1>Pogoda1</h1>
         <Formularz
           value={this.state.value}
           change={this.onChange}
