@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700&subset=latin-ext");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+.wraper {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(114, 136, 112);
+  .navi {
+    width: 100%;
+    height: auto;
+    background-color: rgb(51, 44, 44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    nav {
+      background-color: rgb(51, 44, 44);
+      color: whitesmoke;
+      display: flex;
+      width: auto;
+    }
+  }
+
+  section {
+    background-color: rgb(154, 214, 181);
+    flex-grow: 1;
+  }
+}
+
+nav {
+  ul {
+    list-style: none;
+    padding-right: 6%;
+    text-decoration: none;
+  }
+  a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    transition: 0.5s;
+    font-size: 20px;
+    &:hover {
+      background-color: rgb(112, 109, 109);
+      color: black;
+      text-decoration: none;
+    }
+  }
+  a.active {
+    color: wheat;
+  }
+}
+
+.fetchWrap {
+  display: flex;
+}
+
+button {
+  padding: 10px;
+  background-color: #fff;
+}
+.fetch1,
+.fetch2 {
+  width: 50%;
+  height: 100%;
+}
+.users {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  .user {
+    width: 45%;
+  }
+}
+.zadania {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+
+  align-items: center;
+  flex-direction: column;
+}
+.dodajZadanie {
+  display: flex;
+  min-height: 30vh;
+  width: 100%;
+  align-items: flex-start;
+}
+.wraperSiedem {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  .adminPanel {
+    width: 40%;
+    max-height: 100vh;
+
+    padding: 5%;
+    background-color: rgb(105, 149, 112);
+  }
+  .books {
+    background-color: rgb(77, 95, 83);
+    color: aliceblue;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .book {
+    background-color: rgb(57, 59, 56);
+    width: 80%;
+    text-align: center;
+    margin: 5%;
+  }
+}
+.boo{
+   display: flex;
+  flex-wrap: nowrap;
+  
+}
+.demo{
+  min-width: 1000px;
+  background-color: rgb(214, 38, 38);
+}

@@ -1,0 +1,43 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@opuscapita/react-grid": "^7.4.1",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.0.0",
+    "classnames": "^2.2.6",
+    "firebase": "^4.10.0",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "node-sass": "^4.11.0",
+    "primeicons": "^1.0.0",
+    "primereact": "^3.1.0",
+    "re-base": "3.2.2",
+    "react": "^16.8.4",
+    "react-bootstrap-table-next": "^3.0.2",
+    "react-bootstrap-table2-editor": "^1.2.2",
+    "react-bootstrap-table2-filter": "^1.1.7",
+    "react-bootstrap-table2-paginator": "^2.0.4",
+    "react-bootstrap-table2-toolkit": "^1.4.0",
+    "react-dom": "^16.8.4",
+    "react-immutable-proptypes": "^2.1.0",
+    "react-router-dom": "^4.4.0",
+    "react-scripts": "2.1.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
